@@ -35,7 +35,6 @@ const Thanhtoan = ({ navigate, location }) => {
   }, [tourId, reBookingData]);
 
   const handleBooking = async () => {
-    console.log(current)
     if (!current) {
       return Swal.fire({
         icon: 'info',
