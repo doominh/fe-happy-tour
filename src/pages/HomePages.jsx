@@ -155,7 +155,7 @@ const HomePages = () => {
                                         </div>
                                     </div>
                                     <div className={styles.center_bot_r}>
-                                        <img className={styles.img_bot_r} alt="" src="https://www.quangbinhtravel.vn/wp-content/uploads/2013/05/ca-chep-rong.jpg" />
+                                        <img className={styles.img_bot_r} alt="" src="https://vcdn1-dulich.vnecdn.net/2022/06/02/Son-Tra-2238-1654169672.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=FScJfxXuNeEPtYatWhzlZg" />
                                     </div>
                                     <div className={styles.center_bot_ct}>
                                         <img className={styles.img_center_bot_ct} alt="" src="https://owa.bestprice.vn/images/articles/uploads/top-15-cac-dia-diem-du-lich-da-nang-hot-nhat-ban-khong-the-bo-qua-5ed9cb93af7eb.jpg" />

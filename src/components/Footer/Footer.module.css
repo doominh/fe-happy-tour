@@ -2,7 +2,7 @@
     /* background: #2a2d54; */
     width: 100%;
     height: 380px;
-    background-image: url(./img/bg_booking.jpg);
+    background-image: url(/img/bg_booking.jpg);
 }
 .footer_top {padding: 30px 0 20px;}
 
