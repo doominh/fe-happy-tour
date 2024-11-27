@@ -1,0 +1,103 @@
+.footer {
+    /* background: #2a2d54; */
+    width: 100%;
+    height: 380px;
+    background-image: url(./img/bg_booking.jpg);
+}
+.footer_top {padding: 30px 0 20px;}
+
+/*.footer-logo*/
+.footer_logo img{
+    width: 20%;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-right: -150px;
+}
+.rows{
+    margin-right: 169px;
+    margin-left: 206px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.footer_logo a:hover,.footer_logo a:focus{
+    display: inline-block;
+    /* color: black; */
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    text-transform:uppercase;
+}
+.single_footer_widget p {
+    font-size: 14px;
+    /* color: #eeeff6; */
+    max-width: 300px;
+    margin:10px 0 20px;
+}
+.footer_contact p {
+    margin: 0;
+    /* color: #d1d7e9; */
+}
+/*.footer-logo*/
+
+.single_footer_widget {margin-bottom: 40px;}
+.single_footer_widget h2 {
+    font-size: 14px;
+    /* color: #fff; */
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.single_footer_widget ul li {
+    display:  inherit;
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+}
+.single_footer_widget ul li:hover{
+    -webkit-transform:translateX(10px);
+    -moz-transform:translateX(10px);
+    -ms-transform:translateX(10px);
+    -o-transform:translateX(10px);
+    transform:translateX(10px);
+}
+.single_footer_widget ul li a {
+    font-size:  14px;
+    color:  black;
+    font-weight:  300;
+    padding-bottom: 13px;
+    text-decoration: none;
+}
+.single_footer_widget ul li a span {text-transform: lowercase;}
+.footer_newsletter p{
+    /* color: #aeafc2; */
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 15px;
+}
+
+
+/*.footer-copyright */
+.footer_copyright {
+    padding: 20px 0 10px;
+    /* border-top: 1px solid #434859; */
+}
+/*  */
+.footer_social{
+    text-align: right;
+    margin-right: 115px;
+}
+.footer_social a i {
+    color: #2630f0;
+    opacity: .40;
+    font-size: 14px;
+    margin-left: 16px;
+    -webkit-transition: .3s; 
+    -moz-transition:.3s; 
+    -ms-transition:.3s; 
+    -o-transition:.3s;
+    transition: .3s;
+}
+.footer_social i:hover{opacity: .70;}

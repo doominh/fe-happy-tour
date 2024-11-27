@@ -1,0 +1,23 @@
+.box {
+    height: 89px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .box .headeruser {
+    background-color: #5dbc5d;
+    height: 89px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .box .rectangle {
+    height: 89px;
+    left: 112px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 156px;
+  }

@@ -1,0 +1,74 @@
+/* ---Header--- */
+.video_container{
+    height: 98vh;
+}
+.video_container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header{
+    position: relative;
+    text-decoration: none;
+}
+.header_top i{
+    text-decoration: none;
+    position: fixed;
+    right: 0;
+    margin: 12px;
+    font-size: 35px;
+    color: var(--main-color);
+    cursor: pointer;
+    z-index: 3;
+}
+.header_top ul{
+    text-decoration: none;
+    position: fixed;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    padding: 100px 0 0 50px;
+    display: none;
+    opacity: 0;
+    z-index: 2;
+    background: none;
+}
+.header_top ul.active{
+    display: block;
+    text-decoration: none;
+    opacity: 1;
+}
+.header_top ul li{
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    /* chuyển động của thanh menu */
+    animation: fade 0.3s linear backwards;
+    animation-delay: calc(0.3s * var(--x));
+}
+@keyframes fade{
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+}
+.header_top ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: var(--main-color);
+    padding: 15px;
+    transition: all 0.3s ease;  
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+    color: #fff;
+}
+.header_top ul li a:hover{
+    color: tomato;
+}
+
+/* ---End Header--- */
+
+  
+  
+  

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --main-color: rgb(93, 188, 93);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  /* overflow-x: hidden; */
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*******************************Responsive Design****************/
+@media (max-width: 575px) {
+  .header_content {
+    width: 100%;
+  }
+
+  .about {
+    padding: 50px 0;
+  }
+  .about_content_left {
+    width: 100%;
+  }
+  .about_content_right {
+    width: 100%;
+    padding: 0 12px;
+  }
+  .service_item {
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 12px;
+  }
+  .tour {
+    padding: 50px 0;
+  }
+  .tour_content_item_img {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+  }
+  .tour_content_item_text {
+    width: 100%;
+    padding: 12px;
+  }
+  .review_item {
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 12px;
+  }
+  .contact_content_item {
+    width: 100%;
+  }
+}
+
+/* slider */
+button.slick-next {
+  width: 80px;
+  height: 80px;
+  right: 5px;
+  z-index: 1;
+}
+button.slick-prev {
+width: 80px;
+height: 80px;
+left: 5px;
+z-index: 1;
+}
+button.slick-next::before {
+font-size: 30px;
+color: #5dbc5d;
+content: "\276F";
+}
+button.slick-prev::before {
+font-size: 30px;
+color: #5dbc5d;
+content: "\276E";
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
